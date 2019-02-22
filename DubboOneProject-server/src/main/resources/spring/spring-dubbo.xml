@@ -6,7 +6,7 @@
 		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!--发布出去的dubbo服务类所在包的注解-->
-    <dubbo:annotation package="com.debug.mooc.dubbo.one.server.service.dubbo" />
+    <dubbo:annotation package="com.chen.dubbo.server.service.dubbo" />
 
     <!--注册中心zookeeper配置信息-->
     <dubbo:registry address="${dubbo.registry.address}" />

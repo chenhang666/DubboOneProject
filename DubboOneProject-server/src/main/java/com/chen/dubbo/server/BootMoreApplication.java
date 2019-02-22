@@ -12,13 +12,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 import org.springframework.context.annotation.ImportResource;
 
-/**
- * @Author:debug (SteadyJack)
- * @Date: 2019/1/12 11:48
- **/
 @SpringBootApplication
 @ImportResource(value = {"classpath:spring/spring-jdbc.xml","classpath:spring/spring-dubbo.xml"})
-@MapperScan(basePackages = "com.debug.mooc.dubbo.one.model.mapper")
+@MapperScan(basePackages = "com.chen.dubbo.model.mapper")
 public class BootMoreApplication extends SpringBootServletInitializer {
 
     @Override
